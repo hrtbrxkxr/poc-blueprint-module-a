@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": ["ES2022"],
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "lib": ["ES2022", "dom"],
+    "module": "node16",
+    "moduleResolution": "node16",
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
@@ -11,5 +11,5 @@
     "declaration": false
   },
   "include": ["**/*.ts"],
-  "exclude": ["dist", "node_modules", "**/*.test.ts"]
+  "exclude": ["dist", "node_modules", "**/*.test.ts", "vitest.config.ts"]
 }
