@@ -24,7 +24,6 @@ async function bootstrap() {
 
   const port = process.env.PORT ?? 4001;
   app.listen(port, () => {
-    // eslint-disable-next-line no-console
     console.log(`module-a-bff listening on port ${port}`);
   });
 }
