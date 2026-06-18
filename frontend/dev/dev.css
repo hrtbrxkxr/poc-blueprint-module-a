@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* shared-ui ships its own precompiled CSS bundle (theme tokens + every
+   utility its components use) — module-a never has access to shared-ui's
+   source when installed as a real npm package, so it can't content-scan
+   it itself. This import works identically in-workspace or in a true
+   standalone clone of this repo. */
+@import "@platform/shared-ui/styles.css";
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  padding: 2rem;
+}
