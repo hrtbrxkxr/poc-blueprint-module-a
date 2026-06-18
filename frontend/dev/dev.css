@@ -5,7 +5,7 @@
    source when installed as a real npm package, so it can't content-scan
    it itself. This import works identically in-workspace or in a true
    standalone clone of this repo. */
-@import "@platform/shared-ui/styles.css";
+@import "@hrtbrxkxr/shared-ui/styles.css";
 
 body {
   margin: 0;

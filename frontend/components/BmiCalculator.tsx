@@ -1,7 +1,7 @@
 "use client";
 
 import { SetStateAction, useState } from "react";
-import { Button, Card, Input } from "@platform/shared-ui";
+import { Button, Card, Input } from "@hrtbrxkxr/shared-ui";
 import { useBmiCalculator } from "../hooks/useBmiCalculator";
 
 export function BmiCalculator({ bffUrl }: { bffUrl: string }) {

@@ -10,14 +10,14 @@ This repo doesn't need a consumer repo (e.g. `poc-blueprint`) checked out — cl
 
 ### Setup
 
-It depends on `@platform/shared-ui` (published to GitHub Packages), so `pnpm install` needs a GitHub PAT with `read:packages` scope exported first — this repo's own `.npmrc` already points the `@platform` scope at the right registry:
+It depends on `@hrtbrxkxr/shared-ui` (published to GitHub Packages), so `pnpm install` needs a GitHub PAT with `read:packages` scope exported first — this repo's own `.npmrc` already points the `@hrtbrxkxr` scope at the right registry:
 
 ```bash
 export GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxx
 pnpm install
 ```
 
-(If you're working inside a consumer repo's workspace instead — e.g. `poc-blueprint/modules/module-a` — that consumer's root `.npmrc` has `link-workspace-packages=true`, so `@platform/shared-ui` resolves to the local `packages/shared-ui` source instead and `GITHUB_TOKEN` isn't needed.)
+(If you're working inside a consumer repo's workspace instead — e.g. `poc-blueprint/modules/module-a` — that consumer's root `.npmrc` has `link-workspace-packages=true`, so `@hrtbrxkxr/shared-ui` resolves to the local `packages/shared-ui` source instead and `GITHUB_TOKEN` isn't needed.)
 
 ### Run
 

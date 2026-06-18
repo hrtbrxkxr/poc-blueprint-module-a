@@ -1,4 +1,4 @@
-import { hydrateEnvFromVault, createLogger } from "@platform/shared-utils";
+import { hydrateEnvFromVault, createLogger } from "@hrtbrxkxr/shared-utils";
 
 const logger = createLogger("module-a-bff-secrets");
 
